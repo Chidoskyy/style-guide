@@ -1,0 +1,310 @@
+
+body{
+    background-color: aliceblue;
+}
+
+.menu{
+    float: right;
+  }
+  nav.menu{
+    text-align: right;
+    margin-top: 22px;
+  }
+ 
+ 
+header{
+    background-color: gray;
+    height: 100px;
+}
+
+header h1{
+    display: inline-block;
+}
+  nav{
+    width: 50%;
+    justify-content: space-between;
+    display: inline-block;
+  }
+  
+a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.main-cointaner {
+    background-color: rgb(242, 243, 249);
+    width: 97%;
+    height: 450px;
+    text-align: center;
+    border: 1px dotted black;
+    margin: auto; 
+    padding: 20px;
+    margin-top: 15px;
+}
+#colormain {
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+}
+#fontmain{
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+}
+.textmain{
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    display: inline;
+}
+
+.blue{
+    background-color: rgb(17, 17, 243)
+}
+
+.pink{
+    background-color: rgb(237, 207, 212);
+}
+
+.green{
+    background-color: rgb(11, 219, 139);
+}
+
+.beige{
+    background-color: rgb(246, 246, 227);
+}
+
+.orange{
+    background-color: rgb(250, 167, 11);
+}
+
+.gray{
+    background-color: rgb(118, 118, 118);
+}
+
+.colorbox{
+    margin: 25px;
+    border: 2px solid black;
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.font-cointaner{
+    background-color: rgb(250, 248, 246);
+    border: 1px dotted black;
+    border-radius: 3px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.font{
+    display: inline-block;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+}
+.ubuntu{
+    font-family: "Ubuntu Sans", serif;
+}
+.oswald{
+    font-family: "Oswald", serif;
+}
+.space{
+    font-family: "Space Mono", sans-serif;
+}
+
+.text-container{
+    background-color: rgba(246, 249, 250, 0.923);
+    border: 1px dotted black;
+    border-radius: 3px;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    
+}
+.text{
+    display: inline-block;
+    margin: 25px;
+}
+
+li{
+    font-size: 25px;
+}
+.super-weight{
+    font-weight: 900;
+}
+.weight{
+    font-weight: 500;
+}
+.upper{
+    text-transform: uppercase;
+}
+.decoration{
+    text-decoration: underline;
+}
+.links{
+    background-color: rgba(246, 249, 250, 0.923);
+    border: 1px dotted black;
+    border-radius: 3px;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.button-container{
+    background-color: #d5abd3;
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#button-main{
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    display: inline;
+    margin-left: 20px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    margin: 4%;
+    font-weight: bolder; 
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: rgb(13, 124, 93);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #98a994;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+.btn-email{
+    border-radius: 5px;
+    background-color: rgb(50, 28, 102);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+.btn-email:hover{
+    color:rgb(187, 181, 208);
+    background-color: #d5abd3;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    text-shadow: 1px 1px 2px pink;
+    width: 120px;
+    cursor: pointer;
+}
+.btn-submit{
+    border-radius: 5px;
+    background-color: rgb(77, 23, 44);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+.btn-submit:hover{
+    background-color: rgb(227, 212, 218);
+    letter-spacing: 2px;
+    transition: all 0.4s ease 0s;
+    text-shadow: red  1px 0 10px;
+    border-radius: 5%;
+    width: 110px;
+    cursor: pointer;
+}
+.btn-warning{
+    border-radius: 5px;
+    background-color: rgb(172, 23, 23);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+.btn-warning:hover{
+    border: 5px solid rgb(235, 167, 167);
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+}
+.btn-info{
+    border-radius: 5px;
+    background-color: rgb(116, 84, 23);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+.btn-info:hover{
+    background-color: rgb(29, 101, 209);
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    width: 110px;
+    cursor: pointer;
+    box-shadow: 0 13px 17px 0 rgba(0,0,0,0.25), 0 18px 51px 0 rgba(0,0,0,0.20);
+}
+.btn-click{
+    border-radius: 5px;
+    background-color: rgb(136, 45, 60);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+.btn-click:hover{
+    background-color: rgb(230, 42, 89);
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(25, 156, 115), #2c5522);
+    box-shadow: 0 13px 17px 0 rgba(0,0,0,0.25), 0 18px 51px 0 rgb(189, 65, 214);
+}
+.btn-link{
+    border-radius: 5px;
+    background-color: rgb(65, 24, 104);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border: none;
+    cursor: pointer;
+}
+.btn-link:hover{
+    background-color: rgb(180, 169, 190);
+    letter-spacing: 1px;
+    cursor: crosshair;
+}
